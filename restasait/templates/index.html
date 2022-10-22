@@ -1,0 +1,213 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<div class="slider-wrap">
+      <section class="home-slider owl-carousel">
+
+
+        <div class="slider-item" style="background-image: url({% static 'img/hero_1.jpg' %});">
+
+          <div class="container">
+            <div class="row slider-text align-items-center justify-content-center">
+              <div class="col-md-8 text-center col-sm-12 ">
+                <h1 data-aos="fade-up">Наслаждайся вкусной едой в нашем ресторане</h1>
+                <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Вкусные завтраки у нас.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="slider-item" style="background-image: url({% static 'img/hero_2.jpg' %});">
+          <div class="container">
+            <div class="row slider-text align-items-center justify-content-center">
+              <div class="col-md-8 text-center col-sm-12 ">
+                <h1 data-aos="fade-up">Вкусная еда</h1>
+                <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Приходи к нам.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    <!-- END slider -->
+    </div>
+
+    <section class="section pb-0">
+      <div class="container">
+        <div class="row mb-5 justify-content-center" data-aos="fade">
+            <div class="col-md-7 text-center heading-wrap">
+              <h2 data-aos="fade-up">Ресторан</h2>
+              <p data-aos="fade-up" data-aos-delay="100">В нашем ресторане хорошее обслуживание и классная еда.</p>
+            </div>
+          </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <img src="{% static 'img/dishes_1.jpg' %}" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="200">
+          </div>
+          <div class="col-lg-4">
+            <img src="{% static 'img/about_1.jpg' %}" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="300">
+            <img src="{% static 'img/about_2.jpg' %}" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="400">
+          </div>
+          <div class="col-lg-4">
+            <img src="{% static 'img/dishes_3.jpg' %}" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="500">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ">
+
+      <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid mb-5">
+          <div class="row" data-aos="fade">
+            <div class="col-md-12 text-center heading-wrap">
+              <h2>Специальное меню</h2>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel centernonloop">
+          <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="100">
+            <div class="text">
+              <p class="dishes-price">500 р.</p>
+              <h2 class="dishes-heading">Органический салат из помидоров, сыр горгонзола, каперсы</h2>
+            </div>
+            <img src="{% static 'img/dishes_1.jpg' %}" alt="" class="img-fluid">
+          </a>
+          <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="200">
+            <div class="text">
+              <p class="dishes-price">250 р.</p>
+              <h2 class="dishes-heading">Запеченная брокколи</h2>
+            </div>
+            <img src="{% static 'img/dishes_2.jpg' %}" alt="" class="img-fluid">
+          </a>
+          <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="300">
+            <div class="text">
+              <p class="dishes-price">300 р.</p>
+              <h2 class="dishes-heading">Острые фрикадельки</h2>
+            </div>
+            <img src="{% static 'img/dishes_3.jpg' %}" alt="" class="img-fluid">
+          </a>
+          <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="400">
+            <div class="text">
+              <p class="dishes-price">450 р.</p>
+              <h2 class="dishes-heading">Баклажаны пармезан</h2>
+            </div>
+            <img src="{% static 'img/dishes_4.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+    </section> <!-- .section -->
+
+    <section class="section bg-light  top-slant-white bottom-slant-gray">
+
+      <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid">
+          <div class="row" data-aos="fade">
+            <div class="col-md-12 text-center heading-wrap">
+              <h2>Наше меню</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <div class="sched d-block d-lg-flex">
+              <div class="bg-image order-2" style="background-image: url({% static 'img/dishes_4.jpg' %});" data-aos="fade"></div>
+              <div class="text order-1">
+                <h3>Салат "Цезарь" на гриле, нарезанный реджано</h3>
+                <p class="text-primary h3">300 р.</p>
+              </div>
+
+            </div>
+
+            <div class="sched d-block d-lg-flex">
+              <div class="bg-image" style="background-image: url({% static 'img/dishes_1.jpg' %});" data-aos="fade"></div>
+              <div class="text">
+                <h3>Острые кальмары с фасолью</h3>
+                <p class="text-primary h3">400 р.</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+            <div class="sched d-block d-lg-flex">
+              <div class="bg-image order-2" style="background-image: url({% static 'img/dishes_2.jpg' %});" data-aos="fade"></div>
+              <div class="text order-1">
+                <h3>Дикие креветки Персидского залива, завернутые в бекон</h3>
+                <p class="text-primary h3">450 р.</p>
+
+              </div>
+
+            </div>
+
+            <div class="sched d-block d-lg-flex">
+              <div class="bg-image" style="background-image: url({% static 'img/dishes_3.jpg' %});" data-aos="fade"></div>
+              <div class="text">
+                <h3>Обжаренное филе тунца ахи* в медово-имбирном соусе</h3>
+                <p class="text-primary h3">200 р.</p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </section> <!-- .section -->
+
+
+
+    <section class="section relative-higher">
+
+      <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid">
+          <div class="row" data-aos="fade">
+            <div class="col-md-12 text-center heading-wrap">
+              <h2>Рекомендации</h2>
+              <!-- <span class="back-text">Testimonial</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="clearfix mb-5 pb-5">
+            <div class="container-fluid">
+
+                <blockquote class="testimonial">
+                  <p>&ldquo;  Мы долго откладывали посещение, а тут настроение располагало. Интересный интерьер, который просто заворожил ребёнка, не большое красочное ламинированное меню и слишком завышенные и не оправданные цены. Заказали курицу на сковородке в томатном соусе. Цветные пельмешки ребёнку. Фруктовую пиццу. Чайник фруктового чая и мороженое ребёнку. &rdquo;</p>
+                  <div class="d-flex author">
+                    <img src="{% static 'img/person_1.jpeg' %}" alt="" class="mr-4">
+                    <div class="author-info">
+                      <h4>Мелиса ховард</h4>
+                      <p>Посетитель</p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section> <!-- .section -->
+
+
+{% endblock %}

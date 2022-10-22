@@ -1,0 +1,140 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block title %}<title>О нас</title>{% endblock %}
+{% block content %}
+    <div class="slider-wrap no-slanted">
+      <div class="slider-item" style="background-image: url({% static 'img/hero_1.jpg' %});">
+
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-md-8 text-center col-sm-12 ">
+              <h1 data-aos="fade-up">О ресторане</h1>
+              <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Готовим вкусную еду уже много лет </p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    <!-- END slider -->
+    </div>
+
+
+
+    <section class="section pt-5 top-slant-white2 relative-higher">
+      <div class="container">
+        <div class="row mb-5 justify-content-center" data-aos="fade">
+            <div class="col-md-7 text-center heading-wrap">
+              <h2 data-aos="fade-up">Foody</h2>
+              <p data-aos="fade-up" data-aos-delay="100">можно поставить любое описание ресторана.</p>
+            </div>
+          </div>
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-4">
+            <img src="{% static 'img/dishes_1.jpg' %}" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="200">
+          </div>
+          <div class="col-lg-4">
+            <img src="{% static 'img/about_1.jpg' %}" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="300">
+            <img src="{% static 'img/about_2.jpg' %}" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="400">
+          </div>
+          <div class="col-lg-4">
+            <img src="{% static 'img/dishes_3.jpg' %}" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="500">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 ml-auto">
+            <p>(Пример описания) Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+            <p>(Пример описания) A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+          </div>
+          <div class="col-md-6 ml-auto">
+            <p>(Пример описания) Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+            <p>(Пример описания) A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-light top-slant-white">
+
+      <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 text-center heading-wrap">
+              <h2>Повара</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+          <div class="row">
+            <div class="major-caousel js-carousel-1 owl-carousel">
+              <div>
+                <div class="media d-block media-custom text-center">
+                  <a href="adoption-single.html"><img src="{% static 'img/person_1.jpg' %}" alt="Image Placeholder" class="img-fluid"></a>
+                  <div class="media-body">
+                    <h3 class="mt-0 text-black">Мелиса говард</h3>
+                    <p class="lead">повар</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="media d-block media-custom text-center">
+                  <a href="adoption-single.html"><img src="{% static 'img/person_2.jpg' %}" alt="Image Placeholder" class="img-fluid"></a>
+                  <div class="media-body">
+                    <h3 class="mt-0 text-black">Майк рич</h3>
+                    <p class="lead">повар</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="media d-block media-custom text-center">
+                  <a href="adoption-single.html"><img src="{% static 'img/person_3.jpg' %}" alt="Image Placeholder" class="img-fluid"></a>
+                  <div class="media-body">
+                    <h3 class="mt-0 text-black">чарльз вайт</h3>
+                    <p class="lead">повар</p>
+                  </div>
+                </div>
+              </div>
+
+               <div>
+              <div class="media d-block media-custom text-center">
+                <a href="adoption-single.html"><img src="{% static 'img/person_1.jpg' %}" alt="Image Placeholder" class="img-fluid"></a>
+                <div class="media-body">
+                  <h3 class="mt-0 text-black">Мелиса говард</h3>
+                  <p class="lead">повар</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="media d-block media-custom text-center">
+                <a href="adoption-single.html"><img src="{% static 'img/person_2.jpg' %}" alt="Image Placeholder" class="img-fluid"></a>
+                <div class="media-body">
+                  <h3 class="mt-0 text-black">Майк рич</h3>
+                  <p class="lead">повар</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="media d-block media-custom text-center">
+                <a href="adoption-single.html"><img src="{% static 'img/person_3.jpg' %}" alt="Image Placeholder" class="img-fluid"></a>
+                <div class="media-body">
+                  <h3 class="mt-0 text-black">чарльз вайт</h3>
+                  <p class="lead">повар</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <!-- END slider -->
+          </div>
+        </div>
+
+    </section> <!-- .section -->
+
+
+
+{% endblock %}
